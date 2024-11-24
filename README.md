@@ -3,14 +3,23 @@
 # Overview
 
 This project involves analyzing climate data for Honolulu, Hawaii, using SQLAlchemy and Flask. 
+
 The project is divided into two main parts:
+
 Climate Data Analysis: Using SQLAlchemy to query and analyze climate data, including precipitation and station statistics.
+
 Flask API: Building an API to get details on the climate analysis data through various endpoints.
 
 # Files Description:
 
-hawaii.sqlite: SQLite database file containing 2 tables namely Measurement and Station. The Measurement table has information on Station, Date, Precipitation and Temperature observations. The Station table has information on Station Name, Latitude, Longitude and Elevation.
+hawaii.sqlite: SQLite database file containing 2 tables namely Measurement and Station. 
+
+The Measurement table has information on Station, Date, Precipitation and Temperature observations. 
+
+The Station table has information on Station Name, Latitude, Longitude and Elevation.
+
 climate_starter.ipynb: Jupyter notebook for performing the climate analysis.
+
 app.py: Flask app file containing API routes that expose the climate data through HTTP endpoints.
 
 # Prerequisites:
